@@ -1,0 +1,18 @@
+procedure guess(a, b) callbacks {
+    function answer(x);
+}
+
+main {
+    read a, b;
+    call guess(a, b) callbacks {
+        function answer(x) {
+            write x;
+            read correct;
+            if correct {
+                exit;
+            }
+            read direction;
+            return direction;
+        }
+    }
+}

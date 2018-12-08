@@ -1,0 +1,8 @@
+[parameters]
+
+easy_max_trials = 1000
+hard_max_trials = 30
+
+[scoring]
+
+goals = ["easy", "hard"]
